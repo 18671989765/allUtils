@@ -45,7 +45,10 @@ public class ThreadTransaction {
             try {
 
                 //执行业务逻辑
-                System.out.println("=========数据业务处理完成");
+                System.out.println("=========数据业务处理开始");
+
+
+                System.out.println("=========数据处理完成");
 
                 //提交事务
                 transactionManager.commit(status);
